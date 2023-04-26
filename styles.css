@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+img {
+  width: 100px;
+  /* border: 5px solid red; */
+  padding: 50px;
+  margin: auto;
+  justify-content: center;
+}
+
+form {
+  border: 2px solid grey;
+  padding: 25px;
+  width: 400px;
+  text-align: center;
+
+}
+
+h2 {
+  margin: 0;
+  text-align: left;
+}
+
+label {
+  /* border: 5px solid red; */
+  margin: 10px;
+  font-size: 12px;
+  float: left;
+}
+
+a {
+  /* border: 5px solid red; */
+  float: inline-end;
+  font-size: 11px;
+}
+input {
+  margin: 10px;
+  padding: 3px;
+  border: 2px solid grey;
+  width: 400px;
+}
+.continue {
+  padding:8px;
+  background-color: goldenrod;
+  width: 285px;
+}
+.secondary {
+  /* border: 5px solid red; */
+  text-align: center;
+}
+
+.create-account {
+  padding: 5px;
+  background-color: lightgrey;
+  width: 275px;
+}
+
+.need-help{
+  float: left;
+  padding: 5px;
+}
